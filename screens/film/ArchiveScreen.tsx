@@ -2,12 +2,12 @@ import React from "react";
 
 import { View, Text } from "react-native";
 
-const Test = (): JSX.Element => {
+const ArchiveScreen = (): JSX.Element => {
   return (
     <View>
-      <Text>Test</Text>
+      <Text>ArchiveScreen</Text>
     </View>
   );
 };
 
-export default Test;
+export default ArchiveScreen;

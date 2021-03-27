@@ -2,12 +2,12 @@ import React from "react";
 
 import { View, Text } from "react-native";
 
-const TestScreen = () => {
+const RollScreen = (): JSX.Element => {
   return (
     <View>
-      <Text>TestScreen</Text>
+      <Text>RollScreen</Text>
     </View>
   );
 };
 
-export default TestScreen;
+export default RollScreen;

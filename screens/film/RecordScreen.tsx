@@ -2,7 +2,7 @@ import React from "react";
 
 import { View, Text } from "react-native";
 
-const RecordScreen = () => {
+const RecordScreen = (): JSX.Element => {
   return (
     <View>
       <Text>RecordScreen</Text>

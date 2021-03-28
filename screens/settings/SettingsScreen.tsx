@@ -1,12 +1,11 @@
 import React from "react";
 
-import { View, Text, StyleSheet, Button } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
-const RollScreen = ({ navigation }): JSX.Element => {
+const SettingsScreen = (): JSX.Element => {
   return (
     <View style={styles.container}>
-      <Text>RollScreen</Text>
-      <Button title="Go to main" onPress={() => navigation.popToTop()} />
+      <Text>SettingsScreen</Text>
     </View>
   );
 };
@@ -20,4 +19,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default RollScreen;
+export default SettingsScreen;

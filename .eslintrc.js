@@ -18,6 +18,6 @@ module.exports = {
   },
   rules: {
     "prettier/prettier": "off",
-    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-explicit-any": 0,
   },
 };

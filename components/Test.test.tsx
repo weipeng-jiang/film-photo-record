@@ -13,5 +13,5 @@ test("add", () => {
 test("Test to be in document", () => {
   const { getByText } = render(<Test />);
 
-  getByText("Testfd");
+  getByText("Test");
 });

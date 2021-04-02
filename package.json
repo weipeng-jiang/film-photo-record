@@ -8,6 +8,7 @@
     "eject": "expo eject",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
+    "testw": "jest --watch",
     "test": "jest"
   },
   "husky": {
